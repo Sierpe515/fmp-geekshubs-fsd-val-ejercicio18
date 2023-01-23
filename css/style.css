@@ -1,0 +1,56 @@
+.box1 {
+    background-color: aqua;
+    width: 239px;
+    height: 113px;
+    border: 2px purple solid;
+    background-image: url(../img/f02.png), url(../img/f03.png);
+    background-repeat:no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.suelo {
+    height: 14px;
+    width: 100%;
+    background-image: url(../img/f01.png);
+}
+
+.box2 {
+    height: 300px;
+    width: 450px;
+    background-color: aqua;
+    margin: 20px;
+    border: 4px red solid;display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-image: url(../img/f02.png);
+    background-repeat: no-repeat;
+    background-position: bottom left;
+}
+
+.nubes {
+    background-image: url(../img/f03.png);
+    height: 73px;
+}
+
+.box3 {
+    background-color: aqua;
+    width: 239px;
+    height: 113px;
+    border: 2px purple solid;
+    background-image: url(../img/f02.png), url(../img/f03.png);
+    background-repeat:no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.parraf {
+    padding-top: 5px;
+    margin-left: 15px;
+}
+
+.parr {
+    padding-top: 1px;
+}
